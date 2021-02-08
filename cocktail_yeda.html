@@ -1,0 +1,91 @@
+﻿<!doctype html>
+<html lang="he">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>קוקטייל הידע</title>
+    <meta name="description" content="קוקטייל הידע" />
+    <meta name="keywords" content="קוקטייל, משחק לימודי, ידע, ישראלי, ספורט" />
+    <meta name="author" content="עמית בן בסט, מאי יורמן ונעם רחבי" />
+
+    <!-- CSS -->
+
+    <link href="styles/myStyle.css" rel="stylesheet" />
+
+    <!-- Scripts -->
+    <!--jQuery library-->
+    <script src="jScripts/jquery-1.12.0.min.js"></script>
+    <!--הקוד שמפעיל את תפריט הניווט-->
+    <script src="jScripts/myScript.js"></script>
+    <!-- favicon -->
+    <link rel="icon" href="images/logo.png" type="image/x-icon" />
+</head>
+
+<body>
+    <div id="container">
+        <header>
+            <!--קישור לדף עצמו כדי להתחיל את המשחק מחדש בלחיצה על הלוגו-->
+            <a href="indextest.html">
+                <img id="logo" src="images/logo.png"/> <!--הלוגו של המשחק שלכם-->
+                <p>קוקטייל הידע</p>
+            </a>
+            <!--תפריט הניווט בראש העמוד-->
+            <nav>
+                <ul>
+                    <li><a class="about">אודות</a></li>
+                    <li><a class="howToPlay">איך משחקים?</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div id="aboutDiv" class="popUp bounceInDown hide">
+           <img class="popUp bounceInDown hide" src="images/misgeret.png" />
+            <a class="closeAbout" > <img id="x" src="images/x.png" />  </a>
+            <p id="odot"> אודות</p>
+            <div>
+                <img id="smalllogo" src="images/logo.png" /><h1>קוקטייל הידע</h1>
+                <h2>אופיין ופותח במסגרת פרויקט בקורסים: </h2>
+                <p>
+                    סביבות לימוד אינטראקטיביות + תכנות אינטראקטיבי 1 <br />
+                    תשפ"א
+                </p>
+                <h2> אפיון ופיתוח: </h2>
+                <div id="ournames">
+                </div>
+                <br />
+                <div id="telem">
+                    <img id="logo_hit" src="images/logohit.png" />
+                    <a href="https://www.hit.ac.il/telem/overview">הפקולטה לטכנולוגיית למידה </a>
+                </div>
+                <p id="freepik">חלק מהאובייקטים עוצבו ע"י אתר freepik</p>
+
+            </div>
+
+        </div>
+        <div id="howToPlayDiv" class="popUp bounceInDown hide">
+            <a class="closeHowToPlay"><img id="myx" src="images/x.png" /> </a>
+            <p id="howtoplay"> איך משחקים? </p>
+            <div>
+                <img id="smalllogohowto" src="images/logo.png" /> <h1 id="headline2"> קוקטייל הידע </h1> <br />
+                <p id="melel">
+                    על מנת להרכיב את הקוקטייל המושלם-
+                    <br />
+                    בחר את התשובה הנכונה לשאלה וגרור
+                    <br />
+                  אל השייקר את המרכיב שמתחתיה.<br /><br />
+                    <span>העבר את העכבר לשם הדגמה</span>
+                </p>
+
+                <div id="gif_instucrions"></div>
+            
+            </div>
+        </div>
+
+        <div id="gameArea" class="">
+            
+            <iframe id="gameIframe" src="https://cocktailyedahit.github.io/cocktail_yeda_final/cocktailYeda.html" frameBorder="0" allowfullscreen="">Browser not compatible.</iframe>
+        </div>
+    </div>
+</body>
+
+</html>

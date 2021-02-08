@@ -1,0 +1,363 @@
+﻿
+@import url('../fonts/font.css');
+@font-face {
+    font-family: 'Heebo-Regular';
+    src: url('../fonts/Heebo-Regular.ttf') format('truetype');
+    src: url('../fonts/HEEBO-REGULAR.TTF.eot') format('embedded-opentype');
+}
+
+
+body {
+  /*  background-color: #C1EDFF;*/
+    background-color: white;
+  /*  //background-color: #ffd7ba;*/
+    font-family: Heebo-Regular;
+}
+
+iframe {
+    border: 0;
+    height: 100%;
+    left: 0;
+    position: relative;
+    top: 20px;
+    margin-bottom:10px;
+    width: 100%;
+}
+
+#gameArea {
+    overflow: hidden;
+    position: relative;
+    height: 80vh;
+    width: 90vw;
+    margin: 0 auto;
+}
+
+.hide {
+    display: none;
+}
+
+header {
+    background-color: #F08F6C;
+    width: 100%;
+    height: 50px;
+    position: relative;
+    direction: rtl;
+    display: block;
+    direction: rtl;
+    z-index: 3;
+}
+
+    /*כותרת משחק*/
+    header > a > p {
+        font-family: Heebo-Regular;
+        font-size: 15pt;
+        font-weight: 600;
+        position: relative;
+        top: -20px;
+        color: black;
+        display: inline-block;
+        direction: rtl;
+    }
+
+#aboutDiv > div > h1 {
+    display: inline-block;
+    position: relative;
+    top:25px;
+    left:45px;
+}
+
+/*לוגו*/
+#logo {
+    width: 45px;
+    /*height: 35px;*/
+    padding: 5px 15px;
+    direction: rtl;
+    display:inline-block;
+    left:10px;
+}
+
+#smalllogo {
+    width: 45px;
+    display: inline-block;
+    left: 50px;
+    position: relative;
+    top: 35px;
+}
+
+#smalllogohowto {
+    position: relative;
+    width: 45px;
+    left: 150px;
+    top: 30px;
+}
+
+#gif_instucrions {
+    background-image: url('../images/hoetoplayanimation2.gif');
+    width: 620px;
+    height: 600px;
+    position: relative;
+    background-position-x: -100px;
+    bottom: 350px;
+    right: 100px;
+}
+    #gif_instucrions:hover {
+        background-image: url('../images/hoetoplayanimation2.gif');
+        width: 700px;
+        height: 600px;
+        position: relative;
+        background-position-x: 600px;
+        bottom: 350px;
+        right: 65px;
+    }
+
+
+
+
+
+
+
+nav {
+    margin-top: -70px;
+    margin-left: 10px;
+    direction: rtl;
+}
+
+    nav ul {
+        list-style: none;
+        direction: rtl;
+    }
+
+        nav ul li {
+            display: inline-block;
+            float: left;
+            direction: rtl;
+        }
+
+            nav ul li a {
+                display: block;
+                color: rgb(30, 104, 177);
+                text-align: center;
+                padding: 0px 13px;
+      
+
+                font-weight: 400;
+                font-size: 12pt;
+                font-family: Heebo-Regular;
+                direction: rtl;
+                text-decoration: none;
+            }
+
+                nav ul li a:hover {
+                    font-weight: 600;
+                    cursor: pointer;
+                    font-family: Heebo-Regular;
+                    direction: rtl;
+                    text-decoration: none;
+                }
+
+.popUp {
+    font-family: Heebo-Regular;
+    background-image: url(../images/misgeret.png);
+    position: fixed;
+    top: -25px;
+    z-index: 4;
+    text-align: center;
+    width: 1000px;
+    border-radius: 25px;
+    padding: 10px;
+    left: 250px;
+    direction: rtl;
+    background-repeat: no-repeat;
+    background-size: 1000px;
+    height: 1000px;
+}
+
+
+
+#aboutDiv > div >h2{
+    position:relative;
+    top:10px;
+    left:40px;
+    font-size:20px;
+}
+
+#aboutDiv > div > p {
+    position: relative;
+    left: 30px;
+}
+
+#ournames{
+    background-image: url(../images/beer.png);
+    background-size: 590px;
+    position: relative;
+    right: 255px;
+    width: 500px;
+    height: 400px;
+    bottom: 65px;
+    background-repeat: no-repeat;
+}
+
+#logo_hit {
+    
+
+    FONT-WEIGHT: 300;
+    position: relative;
+    left: 270px;
+    width: 200px;
+    bottom: 350px;
+}
+
+#telem > a {
+    position: relative;
+    left: 420px;
+    width: 200px;
+    font-size: 10px;
+    bottom: 370px;
+
+}
+
+
+#freepik {
+    position: relative;
+    right: 600px;
+    width: 280px;
+    bottom: 390px;
+    font-size: 12px;
+}
+
+
+.bounceInDown {
+    -webkit-animation-name: bounceInDown;
+    animation-name: bounceInDown;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+#x {
+    top: 110px;
+    position: relative;
+    right: 350px;
+    width: 100px;
+}
+
+#myx {
+    top: 110px;
+    position: relative;
+    right: 320px;
+    width: 100px;
+}
+
+div > p {
+    font-size: 16px;
+ 
+}
+
+
+#odot {
+    
+    left: 400px;
+    display: inline-block;
+    position: relative;
+    top: 80px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#headline2 {
+    position: relative;
+    left: 20px;
+    bottom: 40px;
+
+}
+
+#melel {
+    position: relative;
+    left: 25px;
+    bottom:80px;
+    font-size: 18px;
+}
+
+span{
+    font-size:16px;
+ font-weight:bold;
+ position:relative;
+ bottom:20px;
+}
+
+#howtoplay {
+    position: relative;
+    left: 330px;
+    top: 40px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+@-webkit-keyframes bounceInDown {
+    0%, 60%, 75%, 90%, 100% {
+        -webkit-transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+        transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    }
+
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -3000px, 0);
+        transform: translate3d(0, -3000px, 0);
+    }
+
+    60% {
+        opacity: 1;
+        -webkit-transform: translate3d(0, 25px, 0);
+        transform: translate3d(0, 25px, 0);
+    }
+
+    75% {
+        -webkit-transform: translate3d(0, -10px, 0);
+        transform: translate3d(0, -10px, 0);
+    }
+
+    90% {
+        -webkit-transform: translate3d(0, 5px, 0);
+        transform: translate3d(0, 5px, 0);
+    }
+
+    100% {
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+
+@keyframes bounceInDown {
+    0%, 60%, 75%, 90%, 100% {
+        -webkit-transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+        transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    }
+
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -3000px, 0);
+        transform: translate3d(0, -3000px, 0);
+    }
+
+    60% {
+        opacity: 1;
+        -webkit-transform: translate3d(0, 25px, 0);
+        transform: translate3d(0, 25px, 0);
+    }
+
+    75% {
+        -webkit-transform: translate3d(0, -10px, 0);
+        transform: translate3d(0, -10px, 0);
+    }
+
+    90% {
+        -webkit-transform: translate3d(0, 5px, 0);
+        transform: translate3d(0, 5px, 0);
+    }
+
+    100% {
+        -webkit-transform: none;
+        transform: none;
+    }
+}

@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'HEEBO-REGULAR.TTF';
+  src: url('HEEBO-REGULAR.TTF.eot');
+  src: url('HEEBO-REGULAR.TTF.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Heebo-Regular';
+  src: url('Heebo-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
